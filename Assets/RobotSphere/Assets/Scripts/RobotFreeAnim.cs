@@ -57,7 +57,7 @@ public class RobotFreeAnim : MonoBehaviour {
 		}
 
 		// Roll
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.B))
 		{
 			if (anim.GetBool("Roll_Anim"))
 			{
