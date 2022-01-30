@@ -5,7 +5,7 @@ using UnityEngine;
 public class RobotFreeAnim : MonoBehaviour {
 
 	Vector3 rot = Vector3.zero;
-	float rotSpeed = 150f;
+	float rotSpeed = 40f;
 	public float velocidadMovimiento=5.0f;
     public float velocidadRotacion=50.0f;
 	   public float x, y;
