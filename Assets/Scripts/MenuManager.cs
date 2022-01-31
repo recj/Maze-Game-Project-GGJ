@@ -16,4 +16,9 @@ public class MenuManager : MonoBehaviour
         Debug.Log("Gracias por jugar amigx <3");
         Application.Quit();//esta parte solo funcionara en el juego construido por la build,en el editor no da
     }
+    // Update is called once per frame
+    public void BotonGoMainManu()
+    {
+        SceneManager.LoadScene("OnMenu");//para cargar la escena
+    }
 }
