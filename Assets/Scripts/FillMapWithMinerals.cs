@@ -9,8 +9,8 @@ public class FillMapWithMinerals : MonoBehaviour
     void Start()
     {
         
-        for (int i = 0; i < 10; i++){
-            Instantiate(prefab, new Vector3(Random.Range(200, 300), 10, Random.Range(280, 400)), Quaternion.identity);
+        for (int i = 0; i < 25; i++){
+            Instantiate(prefab, new Vector3(Random.Range(200, 300), 0.4f, Random.Range(280, 418)), Quaternion.identity);
         }
     }
 
