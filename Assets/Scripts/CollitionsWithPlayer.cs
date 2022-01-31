@@ -1,6 +1,8 @@
+            using UnityEngine.SceneManagement;//usamos esta libreria
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;//usamos esta libreria
 
 public class CollitionsWithPlayer : MonoBehaviour
 {
@@ -21,8 +23,12 @@ public class CollitionsWithPlayer : MonoBehaviour
         // barraVida.vidaActual= barraVida.vidaActual -20;
             // textCounter.text = inventario.cantidad.ToString();
             Destroy(gameObject);
-
         }
+
+        if(inventario.cantidad == 10){
+            SceneManager.LoadScene("OnWin");//para cargar la escena
+        }
+
 
 
         }
