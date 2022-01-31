@@ -5,6 +5,7 @@ using UnityEngine;
 public class CollitionsWithPlayer : MonoBehaviour
 {
     public Inventario inventario;//llamando al inventario
+    // public Text textCounter;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,7 @@ public class CollitionsWithPlayer : MonoBehaviour
         {
             inventario.cantidad = inventario.cantidad +1;
         // barraVida.vidaActual= barraVida.vidaActual -20;
+            // textCounter.text = inventario.cantidad.ToString();
             Destroy(gameObject);
 
         }
